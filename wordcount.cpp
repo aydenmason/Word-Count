@@ -52,7 +52,7 @@ int main(int argv, char *argc[]){
     
     multimap<int, string> reverseTest = flip_map(MyMap);
 
-    cout << "\nContents of flipped map in descending order:\n" << endl;
+    cout << "\nWord Count :D :\n" << endl;
     for(multimap<int, string>::const_reverse_iterator it = reverseTest.rbegin(); it != reverseTest.rend(); ++it)
         cout << it -> first << " " << it -> second << endl; 
 
